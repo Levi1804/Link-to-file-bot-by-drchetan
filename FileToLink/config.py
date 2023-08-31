@@ -2,15 +2,15 @@ import os
 
 
 class Config:
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    Token = os.environ.get("BOT_TOKEN")
+    API_ID = int(os.environ.get("12714575"))
+    API_HASH = os.environ.get("4d50b1be6e99f49ecc3cc0f0ade6a685")
+    Token = os.environ.get("6407887783:AAEXvoZH7lifmkZWiwlzzp5FCQ4wgveQMQ8")
     Session = os.environ.get("Session_String")
     if Session is None or Session == "":
         Session = ":memory:"
-    App_Name = os.environ.get("APP_NAME")
-    Port = int(os.environ.get("PORT"))
-    Archive_Channel_ID = int(os.environ.get("ARCHIVE_CHANNEL_ID"))
+    App_Name = os.environ.get("filestreamingbot1-0")
+    Port = int(os.environ.get("8080"))
+    Archive_Channel_ID = int(os.environ.get("-1001959055945"))
     Start_Message = os.environ.get("Start_Message")
     Bot_Channel = os.environ.get("Bot_Channel_UserName")
     if Bot_Channel and Bot_Channel.startswith("@"):
